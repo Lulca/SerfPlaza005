@@ -1,4 +1,83 @@
-.box
-	width: 100px
-	height: 100px
-	background-color: #000
+.main-header
+	height: 600px
+	+bg-img('../../app/img/header-bg.png')
+.top-nav
+	background-color: $top-nav-color
+
+.logo
+	padding: 6px 0
+
+.menu
+	overflow: hidden
+	.menu__item
+		float: left
+		font-family: 'MyriadPro-Cond'
+		text-transform: uppercase
+		font-size: 18px
+		margin: 0px 0px
+		position: relative
+		&:hover
+			background-color: $main-color
+			position: relative
+			.menu__link
+				border-right: 1px solid $main-color
+			&:before
+				content: ''
+				position: absolute
+				bottom: 0
+				right: 0
+				border-right: 10px solid $top-nav-color
+				border-top: 10px solid transparent			
+	.menu__link
+		padding: 15px 20px
+		margin: 10px 0
+		border-right: 1px dotted #6b7fa1
+	.menu__link_active
+		border-right: 1px solid $main-color
+	.menu__item_active
+		background-color: $main-color
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			bottom: 0
+			right: 0
+			border-right: 10px solid $top-nav-color
+			border-top: 10px solid transparent
+
+.phone
+	background-color: $accent-color
+	overflow: hidden
+	padding: 15px 10px
+	position: relative
+	max-width: 250px
+	min-width: 240px
+	&:before
+			content: ''
+			position: absolute
+			bottom: 0
+			right: 0
+			border-right: 10px solid $top-nav-color
+			border-top: 10px solid transparent
+	.phone__element
+		float: left
+	.phone__element_number
+		color: $main-color
+		margin-left: 20px
+		margin-top: 0px
+		font-size: 20px
+		font-family: 'MyriadPro-BoldCond'
+		.smaller-number
+			font-size: 14px
+	.phone__element_img
+		margin-left: 30px
+
+.main-header
+	h1
+		font-family: Arial
+		font-size: 19px
+		font-weight: bold
+		font-style: italic
+		margin-top: 20px
+		.main-title_normal
+			font-weight: normal

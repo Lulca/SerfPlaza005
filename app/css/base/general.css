@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, p, span, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+b, strong, h1, h2, h3, h4 {
+  font-family: 'Roboto-Bold';
+}

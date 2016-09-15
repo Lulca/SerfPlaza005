@@ -7945,33 +7945,89 @@ button.close {
 
 /*# sourceMappingURL=bootstrap.css.map */
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url("../fonts/Roboto-Bold/Roboto-Bold.eot");
-  src: url("../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold/Roboto-Bold.svg#font-name") format("svg");
+  font-family: "MyriadPro-Bold";
+  src: url("../fonts/MyriadPro-Bold/MyriadPro-Bold_0.eot");
+  src: url("../fonts/MyriadPro-Bold/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Bold/MyriadPro-Bold_0.woff") format("woff"), url("../fonts/MyriadPro-Bold/MyriadPro-Bold_0.ttf") format("truetype"), url("../fonts/MyriadPro-Bold/MyriadPro-Bold_0.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Italic";
-  src: url("../fonts/Roboto-Italic/Roboto-Italic.eot");
-  src: url("../fonts/Roboto-Italic/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Italic/Roboto-Italic.woff") format("woff"), url("../fonts/Roboto-Italic/Roboto-Italic.ttf") format("truetype"), url("../fonts/Roboto-Italic/Roboto-Italic.svg#font-name") format("svg");
+  font-family: "MyriadPro-BoldCond";
+  src: url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond_0.eot");
+  src: url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond_0.woff") format("woff"), url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond_0.ttf") format("truetype"), url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond_0.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Light";
-  src: url("../fonts/Roboto-Light/Roboto-Light.eot");
-  src: url("../fonts/Roboto-Light/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto-Light/Roboto-Light.svg#font-name") format("svg");
+  font-family: "MyriadPro-BoldCondIt";
+  src: url("../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt_0.eot");
+  src: url("../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt_0.woff") format("woff"), url("../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt_0.ttf") format("truetype"), url("../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt_0.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url("../fonts/Roboto-Regular/Roboto-Regular.eot");
-  src: url("../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular/Roboto-Regular.svg#font-name") format("svg");
+  font-family: "MyriadPro-BoldIt";
+  src: url("../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt_0.eot");
+  src: url("../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt_0.woff") format("woff"), url("../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt_0.ttf") format("truetype"), url("../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Cond";
+  src: url("../fonts/MyriadPro-Cond/MyriadPro-Cond_0.eot");
+  src: url("../fonts/MyriadPro-Cond/MyriadPro-Cond_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond_0.woff") format("woff"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond_0.ttf") format("truetype"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-ContIt";
+  src: url("../fonts/MyriadPro-ContIt/MyriadPro-ContIt_0.eot");
+  src: url("../fonts/MyriadPro-ContIt/MyriadPro-ContIt_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-ContIt/MyriadPro-ContIt_0.woff") format("woff"), url("../fonts/MyriadPro-ContIt/MyriadPro-ContIt_0.ttf") format("truetype"), url("../fonts/MyriadPro-ContIt/MyriadPro-ContIt_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-It";
+  src: url("../fonts/MyriadPro-It/MyriadPro-It_0.eot");
+  src: url("../fonts/MyriadPro-It/MyriadPro-It_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-It/MyriadPro-It_0.woff") format("woff"), url("../fonts/MyriadPro-It/MyriadPro-It_0.ttf") format("truetype"), url("../fonts/MyriadPro-It/MyriadPro-It_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular_0.eot");
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular_0.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular_0.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  src: url("../fonts/MyriadPro-Semibold/MyriadPro-Semibold_0.eot");
+  src: url("../fonts/MyriadPro-Semibold/MyriadPro-Semibold_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Semibold/MyriadPro-Semibold_0.woff") format("woff"), url("../fonts/MyriadPro-Semibold/MyriadPro-Semibold_0.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold/MyriadPro-Semibold_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-SemiboldIt";
+  src: url("../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt_0.eot");
+  src: url("../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt_0.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt_0.woff") format("woff"), url("../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt_0.ttf") format("truetype"), url("../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt_0.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ArialNarrow Bold";
+  src: url("../fonts/ArialNarrow Bold/ArialNarrow Bold_0.eot");
+  src: url("../fonts/ArialNarrow Bold/ArialNarrow Bold_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialNarrow Bold/ArialNarrow Bold_0.woff") format("woff"), url("../fonts/ArialNarrow Bold/ArialNarrow Bold_0.ttf") format("truetype"), url("../fonts/ArialNarrow Bold/ArialNarrow Bold_0.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -7984,57 +8040,30 @@ button.close {
   font-style: normal;
 }
 
-.social i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-twitter:before {
-  content: "\e900";
-}
-
-.icon-rss:before {
-  content: "\ea9b";
-}
-
-.icon-facebook:before {
-  content: "\e901";
-}
-
-.icon-google:before {
-  content: "\e902";
-}
-
 body, h1, h2, h3, h4, p, span, ul, li, a {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-size: 13px;
-  line-height: 1.86;
+  font-size: 15px;
+  line-height: 18px;
   min-width: 320px;
-  font-family: 'Roboto-Regular', Arial, sans-serif;
-  color: #7f8c8c;
-  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  color: #4a5976;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
   display: block;
   line-height: 1;
+  color: #4a5976;
 }
 
 a:hover {
   text-decoration: none;
+  color: #4a5976;
 }
 
 a:focus {
@@ -8048,11 +8077,131 @@ ul {
 }
 
 b, strong, h1, h2, h3, h4 {
-  font-family: 'Roboto-Bold';
+  font-family: Arial;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #000;
+[class^='col-'] {
+  margin-bottom: 20px;
+}
+
+.main-header {
+  height: 600px;
+  background-image: url("../../app/img/header-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.top-nav {
+  background-color: #e3f0fd;
+}
+
+.logo {
+  padding: 6px 0;
+}
+
+.menu {
+  overflow: hidden;
+}
+
+.menu .menu__item {
+  float: left;
+  font-family: 'MyriadPro-Cond';
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px 0px;
+  position: relative;
+}
+
+.menu .menu__item:hover {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.menu .menu__item:hover .menu__link {
+  border-right: 1px solid #ffffff;
+}
+
+.menu .menu__item:hover:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-right: 10px solid #e3f0fd;
+  border-top: 10px solid transparent;
+}
+
+.menu .menu__link {
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-right: 1px dotted #6b7fa1;
+}
+
+.menu .menu__link_active {
+  border-right: 1px solid #ffffff;
+}
+
+.menu .menu__item_active {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.menu .menu__item_active:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-right: 10px solid #e3f0fd;
+  border-top: 10px solid transparent;
+}
+
+.phone {
+  background-color: #4199e3;
+  overflow: hidden;
+  padding: 15px 10px;
+  position: relative;
+  max-width: 250px;
+  min-width: 240px;
+}
+
+.phone:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-right: 10px solid #e3f0fd;
+  border-top: 10px solid transparent;
+}
+
+.phone .phone__element {
+  float: left;
+}
+
+.phone .phone__element_number {
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: 'MyriadPro-BoldCond';
+}
+
+.phone .phone__element_number .smaller-number {
+  font-size: 14px;
+}
+
+.phone .phone__element_img {
+  margin-left: 30px;
+}
+
+.main-header h1 {
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.main-header h1 .main-title_normal {
+  font-weight: normal;
 }
