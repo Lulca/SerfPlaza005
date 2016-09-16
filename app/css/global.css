@@ -8065,6 +8065,10 @@ button.close {
   color: #ffffff;
 }
 
+.text-20 {
+  font-size: 20px;
+}
+
 body, h1, h2, h3, h4, p, span, ul, li, a {
   margin: 0;
   padding: 0;
@@ -8324,4 +8328,78 @@ b, strong, h1, h2, h3, h4 {
   background-color: #f5faff;
   text-transform: uppercase;
   font-size: 22px;
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
+.info p {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.list ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list ul li {
+  margin-left: 25px;
+}
+
+.main-footer {
+  background-color: #e4ebf3;
+}
+
+.b-social .b-social__icons {
+  width: 33px;
+  height: 33px;
+  background: url("../../app/img/social.png") no-repeat;
+  float: left;
+  margin-right: 15px;
+}
+
+.b-social .b-social_vk {
+  background-position: 100%;
+}
+
+.b-social .b-social_f {
+  background-position: 0%;
+}
+
+.b-social .b-social_ok {
+  background-position: 32.5%;
+}
+
+.b-social .b-social_tw {
+  background-position: 67.5%;
+}
+
+.rambler .b-social-right {
+  width: 88px;
+  height: 30px;
+  background: url("../../app/img/rambler.png") no-repeat;
+  float: right;
+  margin-left: 15px;
+}
+
+.rambler .b-social-right_rambler {
+  background-position: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+*:first-child + html .clearfix {
+  zoom: 1;
 }
