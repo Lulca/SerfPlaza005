@@ -8040,6 +8040,14 @@ button.close {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "icomoon1";
+  src: url("../fonts/icomoon/icomoon.eot");
+  src: url("../fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .text-bold {
   font-weight: bold;
 }
@@ -8119,6 +8127,7 @@ b, strong, h1, h2, h3, h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  position: relative;
 }
 
 .top-nav {
@@ -8139,7 +8148,6 @@ b, strong, h1, h2, h3, h4 {
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px 0px;
-  position: relative;
 }
 
 .menu .menu__item:hover {
@@ -8402,4 +8410,61 @@ b, strong, h1, h2, h3, h4 {
 
 *:first-child + html .clearfix {
   zoom: 1;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon1' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 30px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu2 {
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  z-index: 100000;
+  display: none;
+}
+
+.icon-menu:before {
+  content: "\e903";
+}
+
+.icon-menu2:before {
+  content: "\e9bd";
+}
+
+@media only screen and (max-width: 1200px) {
+  .menu {
+    margin-top: 65px;
+  }
+  .menu .menu__item {
+    float: none;
+  }
+  .menu .menu__link {
+    border-right: none;
+  }
+  .icon-menu2 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .icon-menu2 {
+    position: absolute;
+    top: 80px;
+    right: 50%;
+  }
+  .phone {
+    margin-top: 35px;
+  }
 }
