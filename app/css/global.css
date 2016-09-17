@@ -8621,6 +8621,9 @@ b, strong, h1, h2, h3, h4 {
   .title-dots {
     display: none;
   }
+  .b-office .b-office__link {
+    float: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -8647,6 +8650,9 @@ b, strong, h1, h2, h3, h4 {
   }
   .text-align-center {
     text-align: center;
+  }
+  .p-first-top {
+    margin-top: 40px;
   }
 }
 
