@@ -8246,6 +8246,8 @@ b, strong, h1, h2, h3, h4 {
 .b-office .b-office__img {
   height: 136px;
   margin-top: 0px;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .b-office .b-office__img_39 {
@@ -8466,5 +8468,7 @@ b, strong, h1, h2, h3, h4 {
   }
   .phone {
     margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

@@ -13,6 +13,10 @@ var siteNavigation = (function() {
 			$(window).resize(function(){
 				if ($(window).width() >= 1200) {
 					menu.fadeIn(.1);
+				}
+
+				if ($(window).width() < 1200) {
+					menu.fadeOut(.1);
 				}	
 			});
 			
