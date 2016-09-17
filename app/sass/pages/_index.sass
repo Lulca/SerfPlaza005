@@ -1,10 +1,10 @@
 .main-header
 	// height: 772px
 	+bg-img('../../app/img/header-bg.png')
-	position: relative
+	
 .top-nav
 	background-color: $top-nav-color
-
+	position: relative
 .logo
 	padding: 6px 0
 
@@ -212,7 +212,7 @@
 
 .icon-menu2
 	position: absolute
-	top: 10px
+	top: 20px
 	right: 50%
 	z-index: 100000
 	display: none
@@ -221,3 +221,109 @@
 
 .icon-menu2:before 
 	content: "\e9bd"
+
+.top-nav_modific
+	background-color: $bottom-nav-color
+	.phone
+		display: none
+	.menu__link
+		padding: 15px 35px
+
+//product
+.table
+	.main-title_product
+		display: inline-block
+		text-align: left
+		font-size: 23px
+		font-style: normal
+
+.top-rent
+	list-style-type: disc
+	font-family: Arial
+	list-style-position: inside
+	font-size: 15px
+	margin-bottom: 20px
+	li
+		display: inline-block
+		a
+			text-decoration: underline
+			color: #1786e3
+
+.table_font
+	font-family: Arial
+	font-size: 14px
+
+.table
+	.t-head_normal-font
+		font-style: normal
+.table_font > tbody > tr > td
+	text-align: left
+	padding-left: 30px
+
+.p-first-top
+	height: 115px
+	+bg-img('../../app/img/p-first-top.png')
+	max-width: 200px
+	margin: 0 auto
+	margin-top: 129px
+.p-second-top
+	margin: 0 auto
+	max-width: 200px
+	margin-top: 20px
+	height: 180px
+	+bg-img('../../app/img/p-second-top.png')
+
+.b-prod-button
+	text-align: right
+
+.p-top-buttons
+	width: 140px
+	height: 76px
+	margin-bottom: 20px
+
+.b-prod-button_office
+	margin-top: 50px
+	background-image: url("../../app/img/p-offise-light.png")
+	transition: all .3s ease-in-out
+	&:hover
+		background-image: url("../../app/img/p-office.png")
+
+.b-prod-button_shop
+	background-image: url("../../app/img/p-shop.png")
+	transition: all .3s ease-in-out
+	&:hover
+		background-image: url("../../app/img/p-shop-darken.png")
+.b-prod-button_free-ass
+	background-image: url("../../app/img/p-free.png")
+	transition: all .3s ease-in-out
+	&:hover
+		background-image: url("../../app/img/p-free-darken.png")
+
+
+.p-top-buttons
+	display: inline-block
+
+.similar-spaces
+	margin:	20px 0
+	font-size: 21px
+
+.similar-offices
+	text-align: center
+
+.border-top-bottom
+	border-top: 1px solid #bccae1
+	border-bottom: 1px solid #bccae1
+.p-button-bottom
+	text-align: center
+	margin-top: 45px
+	margin-bottom: 85px
+
+.dotted-bottom
+	border-bottom: 1px dotted #4a5976
+	margin-bottom: 30px
+
+.title-dots
+	font-weight: normal
+
+.call-us-text
+	margin-bottom: 25px

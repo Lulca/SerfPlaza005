@@ -7,6 +7,8 @@ var siteNavigation = (function() {
 			var button = $('.icon-menu2');
 
 			button.on('click', function() {
+				$that = $(this);
+				var menu = $that.siblings('.container').find('.menu');
 				menu.fadeToggle();
 			});
 

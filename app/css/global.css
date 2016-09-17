@@ -8061,7 +8061,7 @@ button.close {
   display: inline-block;
   padding: 17px 27px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 15px;
   border: 1px solid #4199e3;
   transition: all 0.3s;
@@ -8075,6 +8075,10 @@ button.close {
 
 .text-20 {
   font-size: 20px;
+}
+
+.blue-color {
+  background-color: #f5faff;
 }
 
 body, h1, h2, h3, h4, p, span, ul, li, a {
@@ -8127,11 +8131,11 @@ b, strong, h1, h2, h3, h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  position: relative;
 }
 
 .top-nav {
   background-color: #e3f0fd;
+  position: relative;
 }
 
 .logo {
@@ -8431,7 +8435,7 @@ b, strong, h1, h2, h3, h4 {
 
 .icon-menu2 {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 50%;
   z-index: 100000;
   display: none;
@@ -8445,9 +8449,165 @@ b, strong, h1, h2, h3, h4 {
   content: "\e9bd";
 }
 
-@media only screen and (max-width: 1200px) {
+.top-nav_modific {
+  background-color: #e4ebf3;
+}
+
+.top-nav_modific .phone {
+  display: none;
+}
+
+.top-nav_modific .menu__link {
+  padding: 15px 35px;
+}
+
+.table .main-title_product {
+  display: inline-block;
+  text-align: left;
+  font-size: 23px;
+  font-style: normal;
+}
+
+.top-rent {
+  list-style-type: disc;
+  font-family: Arial;
+  list-style-position: inside;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.top-rent li {
+  display: inline-block;
+}
+
+.top-rent li a {
+  text-decoration: underline;
+  color: #1786e3;
+}
+
+.table_font {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.table .t-head_normal-font {
+  font-style: normal;
+}
+
+.table_font > tbody > tr > td {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.p-first-top {
+  height: 115px;
+  background-image: url("../../app/img/p-first-top.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 129px;
+}
+
+.p-second-top {
+  margin: 0 auto;
+  max-width: 200px;
+  margin-top: 20px;
+  height: 180px;
+  background-image: url("../../app/img/p-second-top.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.b-prod-button {
+  text-align: right;
+}
+
+.p-top-buttons {
+  width: 140px;
+  height: 76px;
+  margin-bottom: 20px;
+}
+
+.b-prod-button_office {
+  margin-top: 50px;
+  background-image: url("../../app/img/p-offise-light.png");
+  transition: all .3s ease-in-out;
+}
+
+.b-prod-button_office:hover {
+  background-image: url("../../app/img/p-office.png");
+}
+
+.b-prod-button_shop {
+  background-image: url("../../app/img/p-shop.png");
+  transition: all .3s ease-in-out;
+}
+
+.b-prod-button_shop:hover {
+  background-image: url("../../app/img/p-shop-darken.png");
+}
+
+.b-prod-button_free-ass {
+  background-image: url("../../app/img/p-free.png");
+  transition: all .3s ease-in-out;
+}
+
+.b-prod-button_free-ass:hover {
+  background-image: url("../../app/img/p-free-darken.png");
+}
+
+.p-top-buttons {
+  display: inline-block;
+}
+
+.similar-spaces {
+  margin: 20px 0;
+  font-size: 21px;
+}
+
+.similar-offices {
+  text-align: center;
+}
+
+.border-top-bottom {
+  border-top: 1px solid #bccae1;
+  border-bottom: 1px solid #bccae1;
+}
+
+.p-button-bottom {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 85px;
+}
+
+.dotted-bottom {
+  border-bottom: 1px dotted #4a5976;
+  margin-bottom: 30px;
+}
+
+.title-dots {
+  font-weight: normal;
+}
+
+.call-us-text {
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .b-office .b-office__img {
+    max-width: 360px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
   .menu {
     margin-top: 65px;
+    display: none;
   }
   .menu .menu__item {
     float: none;
@@ -8457,6 +8617,9 @@ b, strong, h1, h2, h3, h4 {
   }
   .icon-menu2 {
     display: block;
+  }
+  .title-dots {
+    display: none;
   }
 }
 
@@ -8470,5 +8633,32 @@ b, strong, h1, h2, h3, h4 {
     margin-top: 35px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .b-prod-button {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .b-prod-button_shop {
+    margin-top: 50px;
+  }
+  .b-prod-button_free-ass {
+    margin-top: 50px;
+  }
+  .text-align-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .b-prod-button {
+    display: block;
+    margin-right: 20px;
+  }
+  .b-prod-button_shop {
+    margin-top: 0px;
+  }
+  .b-prod-button_free-ass {
+    margin-top: 0px;
   }
 }
