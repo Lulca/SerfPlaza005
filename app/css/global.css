@@ -8125,6 +8125,10 @@ b, strong, h1, h2, h3, h4 {
   margin-bottom: 20px;
 }
 
+.top-nav [class^='col-'] {
+  margin-bottom: 0px;
+}
+
 .main-header {
   background-image: url("../../app/img/header-bg.png");
   background-position: center;
@@ -8332,6 +8336,7 @@ b, strong, h1, h2, h3, h4 {
 .table {
   font-size: 18px;
   font-family: 'ArialNarrow-Bold';
+  margin-bottom: 0;
 }
 
 .table .t-head {
@@ -8602,6 +8607,10 @@ b, strong, h1, h2, h3, h4 {
   .b-office .b-office__img {
     max-width: 360px;
   }
+  .star-pos {
+    position: relative;
+    right: 58px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -8624,16 +8633,20 @@ b, strong, h1, h2, h3, h4 {
   .b-office .b-office__link {
     float: none;
   }
+  .star-pos {
+    position: relative;
+    right: 30px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .icon-menu2 {
     position: absolute;
-    top: 80px;
+    top: 25px;
     right: 50%;
   }
   .phone {
-    margin-top: 35px;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -8653,6 +8666,10 @@ b, strong, h1, h2, h3, h4 {
   }
   .p-first-top {
     margin-top: 40px;
+  }
+  .star-pos {
+    position: relative;
+    right: 5px;
   }
 }
 
