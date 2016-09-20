@@ -5,10 +5,11 @@ var siteNavigation = (function() {
 		init: function() {
 			var menu = $('.menu');
 			var button = $('.icon-menu2');
+			var menuWrap = $('.menu-wrap');
 
 			button.on('click', function() {
 				$that = $(this);
-				var menu = $that.siblings('.container').find('.menu');
+				var menu = $that.parent().find('.menu');
 				menu.fadeToggle();
 			});
 

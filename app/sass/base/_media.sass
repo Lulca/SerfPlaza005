@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 1199px)
 	.menu
-		margin-top: 65px
+		position: relative
 		display: none
 		.menu__item
 			float: none
@@ -29,11 +29,20 @@
 		position: relative
 		right: 30px
 
+@media only screen and (max-width: 1199px) and (min-width: 992px)
+	.margin-menu
+		margin-top: 90px
+	.logo-img
+		left: 280px
 @media only screen and (max-width: 992px)
+	.margin-menu
+		margin-top: 25px
+	.logo-img
+		left: 180px
 	.icon-menu2
 		position: absolute
 		top: 25px
-		right: 50%
+		left: 20px
 	.phone
 		margin-top: 0px 
 		margin-right: auto
@@ -62,5 +71,11 @@
 		margin-top: 0px
 	.b-prod-button_free-ass
 		margin-top: 0px
+	.logo-img
+		opacity: 0
+
+@media only screen and (max-width: 768px)
+	.logo-img
+		left: -90px
 
 

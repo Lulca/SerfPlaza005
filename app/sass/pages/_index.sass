@@ -7,7 +7,8 @@
 	position: relative
 .logo
 	padding: 6px 0
-
+.menu-wrap
+	position: relative
 .menu
 	overflow: hidden
 	.menu__item
@@ -52,12 +53,15 @@
 	position: relative
 	max-width: 250px
 	min-width: 240px
+	position: absolute
+	top: 0
+	right: 15px
 	&:before
 			content: ''
 			position: absolute
 			bottom: 0
 			right: 0
-			border-right: 10px solid $top-nav-color
+			border-right: 10px solid #dcecf7
 			border-top: 10px solid transparent
 	.phone__element
 		float: left
@@ -214,7 +218,7 @@
 .icon-menu2
 	position: absolute
 	top: 20px
-	right: 50%
+	left: 15px
 	z-index: 100000
 	display: none
 .icon-menu:before 
@@ -329,3 +333,14 @@
 .call-us-text
 	margin-bottom: 25px
 
+.phone-wrap
+	width: 260px
+	// height: 67px
+
+// .menu-wrap
+// 	position: absolute
+// 	top: 50px
+
+.logo-img
+	position: relative
+	// left: 100px

@@ -8146,6 +8146,10 @@ b, strong, h1, h2, h3, h4 {
   padding: 6px 0;
 }
 
+.menu-wrap {
+  position: relative;
+}
+
 .menu {
   overflow: hidden;
 }
@@ -8207,6 +8211,9 @@ b, strong, h1, h2, h3, h4 {
   position: relative;
   max-width: 250px;
   min-width: 240px;
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
 
 .phone:before {
@@ -8214,7 +8221,7 @@ b, strong, h1, h2, h3, h4 {
   position: absolute;
   bottom: 0;
   right: 0;
-  border-right: 10px solid #e3f0fd;
+  border-right: 10px solid #dcecf7;
   border-top: 10px solid transparent;
 }
 
@@ -8441,7 +8448,7 @@ b, strong, h1, h2, h3, h4 {
 .icon-menu2 {
   position: absolute;
   top: 20px;
-  right: 50%;
+  left: 15px;
   z-index: 100000;
   display: none;
 }
@@ -8603,6 +8610,14 @@ b, strong, h1, h2, h3, h4 {
   margin-bottom: 25px;
 }
 
+.phone-wrap {
+  width: 260px;
+}
+
+.logo-img {
+  position: relative;
+}
+
 @media only screen and (min-width: 1200px) {
   .b-office .b-office__img {
     max-width: 360px;
@@ -8615,7 +8630,7 @@ b, strong, h1, h2, h3, h4 {
 
 @media only screen and (max-width: 1199px) {
   .menu {
-    margin-top: 65px;
+    position: relative;
     display: none;
   }
   .menu .menu__item {
@@ -8639,11 +8654,26 @@ b, strong, h1, h2, h3, h4 {
   }
 }
 
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .margin-menu {
+    margin-top: 90px;
+  }
+  .logo-img {
+    left: 280px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
+  .margin-menu {
+    margin-top: 25px;
+  }
+  .logo-img {
+    left: 180px;
+  }
   .icon-menu2 {
     position: absolute;
     top: 25px;
-    right: 50%;
+    left: 20px;
   }
   .phone {
     margin-top: 0px;
@@ -8683,5 +8713,14 @@ b, strong, h1, h2, h3, h4 {
   }
   .b-prod-button_free-ass {
     margin-top: 0px;
+  }
+  .logo-img {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-img {
+    left: -90px;
   }
 }
