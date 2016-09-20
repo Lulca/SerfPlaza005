@@ -8618,6 +8618,10 @@ b, strong, h1, h2, h3, h4 {
   position: relative;
 }
 
+.main-footer .menu {
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 1200px) {
   .b-office .b-office__img {
     max-width: 360px;
@@ -8719,7 +8723,7 @@ b, strong, h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .logo-img {
     left: -90px;
   }
