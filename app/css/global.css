@@ -8727,6 +8727,9 @@ b, strong, h1, h2, h3, h4 {
   .logo-img {
     opacity: 0;
   }
+  .logo-img_bottom {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 767px) {
