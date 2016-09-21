@@ -8357,7 +8357,7 @@ b, strong, h1, h2, h3, h4 {
 }
 
 .info {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .info p {
@@ -8665,6 +8665,9 @@ b, strong, h1, h2, h3, h4 {
   .logo-img {
     left: 280px;
   }
+  .logo-img_bottom {
+    left: 400px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -8673,6 +8676,9 @@ b, strong, h1, h2, h3, h4 {
   }
   .logo-img {
     left: 180px;
+  }
+  .logo-img_bottom {
+    left: 300px;
   }
   .icon-menu2 {
     position: absolute;
@@ -8726,5 +8732,8 @@ b, strong, h1, h2, h3, h4 {
 @media only screen and (max-width: 767px) {
   .logo-img {
     left: -90px;
+  }
+  .logo-img_bottom {
+    left: -10px;
   }
 }
