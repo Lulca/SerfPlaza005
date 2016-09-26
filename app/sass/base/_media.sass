@@ -8,7 +8,7 @@
 
 
 
-@media only screen and (max-width: 1199px)
+@media only screen and (max-width: 991px)
 	.menu
 		position: relative
 		display: none
@@ -28,16 +28,26 @@
 	.star-pos
 		position: relative
 		right: 30px
+	// .top-nav
+	// 	.bg-fone-left
+	// 		display: none
+
+@media only screen and (max-width: 1199px) and (min-width: 991px)
+	.menu
+		.menu__link
+			padding: 15px 10px
 
 
-
-@media only screen and (max-width: 1199px) and (min-width: 992px)
+@media only screen and (max-width: 991px) and (min-width: 768px)
 	.margin-menu
 		margin-top: 90px
 	.logo-img
 		left: 280px
 	.logo-img_bottom
 		left: 400px
+	.top-nav
+		.bg-fone-left
+			width: 200px
 @media only screen and (max-width: 991px)
 	.margin-menu
 		margin-top: 25px
@@ -73,16 +83,15 @@
 		top: 12px
 	.margin-left
 		margin-left: 0px
+	.top-nav
+		.bg-fone-left
+			display: none
 
-@media only screen and (max-width: 518px)
-	.logo-img
-		opacity: 0
-	.logo-img_bottom
-		opacity: 1
+
 
 @media only screen and (max-width: 767px)
 	.logo-img
-		left: -90px
+		left: -80px
 	.logo-img_bottom
 		left: -10px
 
@@ -103,5 +112,12 @@
 	.b-prod-button_free-ass
 		padding-top: 20px
 		top: 13px
+
+@media only screen and (max-width: 518px)
+	.logo-img
+		opacity: 0
+		left: 20px
+	.logo-img_bottom
+		opacity: 1
 
 

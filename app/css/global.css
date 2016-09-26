@@ -8142,6 +8142,14 @@ b, strong, h1, h2, h3, h4 {
   position: relative;
 }
 
+.top-nav .bg-fone-left {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  width: 390px;
+  height: 12px;
+}
+
 .logo {
   padding: 6px 0;
 }
@@ -8186,6 +8194,10 @@ b, strong, h1, h2, h3, h4 {
   border-right: 1px dotted #6b7fa1;
 }
 
+.menu .menu__link_no-border {
+  border-right: 1px solid transparent;
+}
+
 .menu .menu__link_active {
   border-right: 1px solid #ffffff;
 }
@@ -8209,8 +8221,8 @@ b, strong, h1, h2, h3, h4 {
   overflow: hidden;
   padding: 15px 10px;
   position: relative;
-  max-width: 240px;
-  min-width: 240px;
+  max-width: 225px;
+  min-width: 210px;
   position: absolute;
   top: 0;
   right: 15px;
@@ -8242,7 +8254,7 @@ b, strong, h1, h2, h3, h4 {
 }
 
 .phone .phone__element_img {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .main-header h1 {
@@ -8630,8 +8642,8 @@ b, strong, h1, h2, h3, h4 {
   margin-bottom: 30px;
 }
 
-.margin-left {
-  margin-left: 60px;
+.b-img-slider-gif {
+  width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -8644,7 +8656,7 @@ b, strong, h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 991px) {
   .menu {
     position: relative;
     display: none;
@@ -8670,7 +8682,13 @@ b, strong, h1, h2, h3, h4 {
   }
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
+@media only screen and (max-width: 1199px) and (min-width: 991px) {
+  .menu .menu__link {
+    padding: 15px 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
   .margin-menu {
     margin-top: 90px;
   }
@@ -8679,6 +8697,9 @@ b, strong, h1, h2, h3, h4 {
   }
   .logo-img_bottom {
     left: 400px;
+  }
+  .top-nav .bg-fone-left {
+    width: 200px;
   }
 }
 
@@ -8730,20 +8751,14 @@ b, strong, h1, h2, h3, h4 {
   .margin-left {
     margin-left: 0px;
   }
-}
-
-@media only screen and (max-width: 518px) {
-  .logo-img {
-    opacity: 0;
-  }
-  .logo-img_bottom {
-    opacity: 1;
+  .top-nav .bg-fone-left {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .logo-img {
-    left: -90px;
+    left: -80px;
   }
   .logo-img_bottom {
     left: -10px;
@@ -8770,5 +8785,15 @@ b, strong, h1, h2, h3, h4 {
   .b-prod-button_free-ass {
     padding-top: 20px;
     top: 13px;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .logo-img {
+    opacity: 0;
+    left: 20px;
+  }
+  .logo-img_bottom {
+    opacity: 1;
   }
 }
