@@ -20,7 +20,13 @@ var siteNavigation = (function() {
 
 				if ($(window).width() < 992) {
 					menu.fadeOut(.1);
-				}	
+				}
+
+				var bg = $('.bg-fone-left');
+				var containter = $('.containter');
+				var body = $('body').width();
+
+				bg.width(body/3 + containter.width()/6);
 			});
 			
 		}
