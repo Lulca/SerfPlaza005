@@ -8797,3 +8797,16 @@ b, strong, h1, h2, h3, h4 {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .table_font > tbody > tr > td, .table_768 > tbody > tr > td {
+    width: 100%;
+    display: block;
+  }
+  .table-responsive > .table > tbody > tr > td {
+    white-space: normal;
+  }
+  .table .t-head_768 {
+    display: none;
+  }
+}
